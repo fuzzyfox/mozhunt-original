@@ -1,0 +1,143 @@
+body {
+	background: #3771c8 url(../images/bg.png) center repeat-y;
+	font-family: Lucida Grande, Verdana, Sans-serif;
+	font-size: 14px;
+	color: #4F5155;
+	margin : 0;
+	padding : 0;
+}
+
+a {
+	color: #3771c8;
+	text-decoration : none;
+}
+a:hover {
+	text-decoration : underline;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	border-top: 1px solid #D0D0D0;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 54px 0 2px 0;
+	padding: 6px 0 6px 0;
+}
+
+h2 {
+	width : 75%;
+	color: #444;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 14px 0 2px 0;
+	padding: 5px 0 2px 0;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+hr {
+	height : 1px;
+	margin : 10px auto;
+	border : none;
+	border-bottom : 1px dashed #D0D0D0;
+}
+
+code {
+	font-family: Monaco, Verdana, Sans-serif;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+table {
+	margin : auto;
+}
+
+ul li {
+	list-style : square;
+	font-size : 12px;
+	padding : 3px;
+	border-bottom : 1px solid #D0D0D0;
+}
+
+ul li ul li {
+	list-style : square;
+	font-size : 12px;
+	padding : 3px;
+	border : none;
+}
+
+ol li {
+	margin : auto;
+	border-bottom : 1px solid #D0D0D0;
+	font-size : 12px;
+	padding : 3px;
+}
+
+input, textarea {
+	border:solid 1px #4F5155;
+	padding : 4px;
+	color : #4F5155;
+	background : #ffffff;
+}
+input:hover, input:focus, textarea:hover, textarea:focus {
+	border:solid 1px #3771c8;
+	color : #3771c8;
+}
+
+table p {
+	padding : 0;
+	margin : 0;
+}
+
+img {
+	border : none;
+	margin : 4px;
+}
+
+#content {
+	width : 500px;
+	margin : 0 auto;
+	padding : 40px;
+	padding-top : 40px;
+	background : #ffffff url(../images/mozhunt.png) top center no-repeat;
+}
+
+#footer {
+	width : 500px;
+	margin : 0 auto;
+	padding : 10px 0 40px;
+	font-size : 10px;
+	text-align : center;
+	border-top: 1px solid #D0D0D0;
+}
+
+.error {
+	border:solid 1px #CB2026;
+	background:#F6CBCA url(../images/pandas/p2.png) 16px center no-repeat;
+	color:#CB2026;
+	padding : 4px 4px 4px 108px;
+}
+.success {
+	border:solid 1px #8FAD3D;
+	background:#EEF4D4 url(../images/pandas/p4.png) 16px center no-repeat;
+	color:#8FAD3D;
+	padding : 4px 4px 4px 108px;
+}
+.error ul li, .success ul li {
+	border : none;
+}
+
+.clear {
+	width : 0px;
+	height : 0px;
+	clear : both;
+}
+
+.left { float:left; }
+.right { float:right; }

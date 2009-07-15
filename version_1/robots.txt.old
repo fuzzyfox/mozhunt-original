@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /hide
+Disallow: /*.png,svg$
